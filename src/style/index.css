@@ -1,0 +1,40 @@
+/**
+* style rules for sectionOne
+**/
+.sectionOne__left--text {
+    font-size: var(--body);
+    font-family: var(--font-2);
+    color: var(--color-white-75);
+}
+
+.sectionOne__left--btn {
+    align-self: start;
+}
+
+/**
+* style rules for sectionTwo
+**/
+.sectionTwo {
+    display: grid;
+    gap: 30px;
+    padding: 30px 0;
+}
+
+.sectionTwo__content--text {
+    font-size: var(--sub);
+    font-family: var(--font-2);
+}
+
+.sectionTwo__logo {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.sectionTwo__logo img {
+    justify-self: center;
+    align-self: center;
+}
+
+.sectionTwo__btn {
+    justify-self: center;
+}
